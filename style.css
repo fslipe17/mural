@@ -1,16 +1,21 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url(./fotos//3438891.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
 }
 
 .login-container .login-img{
-    border-radius: 50%;
-    overflow: hidden;
+    
+    object-fit: contain;
+    
     width: 70%;
     height: 70%;
 }
 
 .login-container .login-img img{
     width: 100%;
+    border-radius: 50%;
     height: auto;
 }
 
@@ -22,16 +27,22 @@ body {
 .login-container {
     width: 300px;
     padding: 16px;
-    background-color: white;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.253), rgba(0, 0, 255, 0.404));
     margin: 0 auto;
     margin-top: 100px;
     border: 1px solid black;
-    border-radius: 4px;
+    border-radius: 12px;
 }
 
 
 .login-container h1 {
     text-align: center;
+    color: #ffffff;
+}
+
+.login-container h2{
+    text-align: center;
+    color: #ffffff;
 }
 
 .login-container form {
@@ -41,6 +52,7 @@ body {
 
 .login-container label {
     margin-top: 12px;
+    color: #ffffff;
 }
 
 .login-container input {
@@ -53,8 +65,9 @@ body {
 .login-container button {
     margin-top: 12px;
     padding: 8px;
-    background-color: blue;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.795);
+    color: black;
+    font-weight: bolder;
     border: none;
     border-radius: 7px;
     cursor: pointer;

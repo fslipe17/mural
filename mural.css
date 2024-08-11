@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #b95bb5c9, #50f3ff9c);
+}
+
+main{
+    background-image: url("fotos/fundo.jpg");
+    background-size: cover;
+    width: 940px;
+	margin: 0 auto;
+    border: 2px solid #87458f;
+    border-radius: 8px 8px 0px 0px;
+    padding: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 26px;
+    width: 80%;
+    box-shadow: 0px 10px 10px linear-gradient(to top, #b95bb5c9, #50f3ff9c), 0px 20px 20px linear-gradient(to top, #b95bb5c9, #50f3ff9c);
+}
+
+.img{
+    width: auto;
+    height: 250px;
+    object-fit: contain;
+}
+
+.image-box {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 16px;
+    position: relative;
+}
+
+.image-box span {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* 
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 1000px;
+    grid-gap: 16px;
+    padding: 16px;
+}
+
+.img{
+    width: 215px;
+    height: 290px;
+    object-fit: cover;
+}
+
+.image-box {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 16px;
+    position: relative;
+}
+
+ */
+.texto{
+    color: #000000;
+    margin: 39px 50px;
+    border: 2px solid #2b2b2b;
+    border-radius: 8px;
+    padding: 12px;
+    position: relative;
+    height: -20px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+    text-align: center;
+    background-image: url("./fotos/bg.jpg");
+    padding: 40px 13px;
+    width: 940px;
+    margin: 0 auto;
+    border: 1px solid #2b2b2b;
+    border-radius: 0px 0px 8px 8px;
+    position: relative;
+}
